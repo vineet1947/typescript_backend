@@ -6,7 +6,7 @@
     "pretty": true,
     "sourceMap": true,
     "outDir": "./dist",
-    "baseUrl": "./lib",
+    "baseUrl": "./src",
     "noImplicitAny": false,
     "esModuleInterop": true,
     "removeComments": true,
@@ -18,7 +18,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true
   },
-  "include": ["lib/**/*.ts"],
+  "include": ["src/**/*.ts", "src/**/*.json"],
   "exclude": ["node_modules"],
   "files": ["node_modules/@types/node/index.d.ts"]
 }
