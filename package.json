@@ -1,0 +1,29 @@
+{
+  "name": "typescript_backend",
+  "version": "1.0.0",
+  "description": "basic template for typescript backend node js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"lib/**/*.{ts,js}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineet1947/typescript_backend.git"
+  },
+  "author": "vineet verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vineet1947/typescript_backend/issues"
+  },
+  "homepage": "https://github.com/vineet1947/typescript_backend#readme",
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@typescript-eslint/eslint-plugin": "^8.8.0",
+    "@typescript-eslint/parser": "^8.8.0",
+    "eslint": "^9.12.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "5.5.x"
+  }
+}
